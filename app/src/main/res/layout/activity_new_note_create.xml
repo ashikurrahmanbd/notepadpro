@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewNoteCreate"
+    android:background="#ecf0f1"
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Note"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#3498db"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#fcfcfc"
+            android:hint="Note Title"
+            android:id="@+id/noteTitleId"
+            android:textColorHint="#3498db"
+            android:layout_marginBottom="15dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#fcfcfc"
+            android:hint="Note Description"
+            android:id="@+id/noteDescriptionId"
+            android:textColorHint="#3498db"
+            android:lines="10"
+           android:gravity="start"
+            android:layout_marginBottom="15dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Note"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:background="#3498db"
+            android:id="@+id/noteSaveId"
+            />
+    </LinearLayout>
+
+</LinearLayout>

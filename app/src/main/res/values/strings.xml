@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Savage NotePad</string>
+    <string-array name="names">
+        <item>Ashik</item>
+        <item>Shafiq</item>
+        <item>Akash</item>
+        <item>Akash</item>
+        <item>Akash</item>
+        <item>Akash</item>
+        <item>Akash</item>
+        <item>Akash</item>
+
+    </string-array>
+</resources>
